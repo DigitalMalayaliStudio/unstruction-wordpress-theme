@@ -1,0 +1,69 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "620px",
+			"wideSize": "1000px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"css": " body {\n     min-height: 100dvh;\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n     align-items: center;\n     font-family: var(--sl-font-sans);\n     line-height: var(--sl-line-height-normal);\n}\n .card-overview {\n     max-width: 350px;\n}\n .card-overview small {\n     color: var(--sl-color-neutral-700);\n}\n sl-badge::part(base) {\n     background-color: var(--sl-color-orange-600);\n     --pulse-color: var(--sl-color-orange-600);\n}\n sl-button::part(base) {\n     color: var(--sl-color-gray-50);\n     background-color: var(--sl-color-orange-600);\n     border-color: var(--sl-color-orange-300);\n}\n sl-button::part(base):hover {\n     background-color: var(--sl-color-orange-500);\n}\n sl-icon-button::part(base):hover {\n     color: var(--sl-color-orange-600);\n}\n .copyright {\n     color: var(--sl-color-neutral-600);\n     text-align: center;\n     margin-top: 2rem;\n}\n .copyright a {\n     color: var(--sl-color-orange-600);\n}\n",
+		"elements": {
+			"button": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)"
+				}
+			},
+			"link": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system-font)"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json"
+}
