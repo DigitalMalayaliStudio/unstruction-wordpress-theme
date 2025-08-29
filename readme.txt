@@ -11,11 +11,20 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Free block theme for setting up a simple and easy “Website Under Construction”, “Coming Soon” or "Under Maintenance" page. It’s powered by Shoelace web components, which provide modern, accessible, and reusable UI elements. The theme includes a built-in countdown timer, making it simple to display the time remaining until your website launch or reopening. It is lightweight, responsive, and designed for full site editing, giving you complete control without the need for custom code or additional plugins. Perfect for anyone preparing a new website launch, redesigning an existing site, or enabling maintenance mode, this theme offers a clean and professional placeholder page that can be published in minutes. With its minimal design, countdown feature, and easy customization, it helps you communicate with visitors and keep your brand visible until your website is ready to go live.
 
-
 == Changelog ==
 
 = 1.0.0 =
 * Initial release
+
+== FAQ ==
+
+=== How to set the date for the countdown timer? ===
+
+Once the theme is installed, go to Tools > Theme File Editor. In the Theme Files side panel, navigate to assets > js > script.js. On line 14, you can set the target date.
+
+=== How to change the theme colour? ===
+
+You can use Shoelace colour tokens to set a consistent theme across the website. By default, the colour token used is 'orange'. Go to Tools > Theme File Editor > theme.json. On line 30, change 'orange' to the colour token you prefer. Refer to this guide for a list of available colour tokens: https://shoelace.style/tokens/color
 
 == Resources ==
 
