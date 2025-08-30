@@ -20,7 +20,11 @@ Free block theme for setting up a simple and easy â€œWebsite Under Constructionâ
 
 === How to set the date for the countdown timer? ===
 
-Once the theme is installed, go to Tools > Theme File Editor. In the Theme Files side panel, navigate to assets > js > script.js. On line 14, you can set the target date.
+Go to Tools > Theme File Editor. In the Theme Files side panel, navigate to assets > js > script.js. On line 14, you can set the target date.
+
+=== How to change the contact details? ===
+
+Open the Block Editor and expand the group block 'card' to find the 'contact' group. Edit the Custom HTML block to update your contact details.
 
 === How to change the theme colour? ===
 
