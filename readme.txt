@@ -20,6 +20,10 @@ Free block theme for setting up a simple and easy “Website Under Construction�
 * Removed example links
 * Included non-minified CSS
 
+= 1.2 =
+* Removed few more example links
+* Updated block variation preview
+
 == FAQ ==
 
 === How to set the date for the countdown timer? ===
@@ -37,7 +41,7 @@ You can use Shoelace colour tokens to set a consistent theme across the website.
 == Resources ==
 
 * Sholeace web components © 2020 A Beautiful Site LLC, MIT, https://shoelace.style/
-* Settings icon (modified and used for construction block variation) from Material Design Icons, © Pictogrammers, Apache 2.0, https://pictogrammers.com/library/mdi/
+* Settings icon (modified and used as icon for construction block variation and preview image) from Material Design Icons, © Pictogrammers, Apache 2.0, https://pictogrammers.com/library/mdi/
 * Maintenance icon (used for maintenance block variation) from Siemens Industrial Experience Icons © 2019–2025 Siemens AG, MIT, https://github.com/siemens/ix-icons
 
 == Copyright ==
