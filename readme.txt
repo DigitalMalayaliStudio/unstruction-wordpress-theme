@@ -9,12 +9,16 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Free block theme for setting up a simple and easy “Website Under Construction”, “Coming Soon” or "Under Maintenance" page. It’s powered by Shoelace web components, which provide modern, accessible, and reusable UI elements. The theme includes a built-in countdown timer, making it simple to display the time remaining until your website launch or reopening. It is lightweight, responsive, and designed for full site editing, giving you complete control without the need for custom code or additional plugins. Perfect for anyone preparing a new website launch, redesigning an existing site, or enabling maintenance mode, this theme offers a clean and professional placeholder page that can be published in minutes. With its minimal design, countdown feature, and easy customization, it helps you communicate with visitors and keep your brand visible until your website is ready to go live.
+Free block theme for setting up a simple and easy “Website Under Construction”, “Coming Soon” or “Under Maintenance” page. It’s powered by Shoelace web components, which provide modern, accessible, and reusable UI elements. The theme includes a built-in countdown timer, making it simple to display the time remaining until your website launch or reopening. It is lightweight, responsive, and designed for full site editing, giving you complete control without the need for custom code or additional plugins. Perfect for anyone preparing a new website launch, redesigning an existing site, or enabling maintenance mode, this theme offers a clean and professional placeholder page that can be published in minutes. With its minimal design, countdown feature, and easy customization, it helps you communicate with visitors and keep your brand visible until your website is ready to go live.
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0 =
 * Initial release
+
+= 1.1 =
+* Removed example links
+* Included non-minified CSS
 
 == FAQ ==
 

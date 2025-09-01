@@ -6,7 +6,7 @@ function unstruction_enqueue_styles_scripts()
 {
 	wp_enqueue_style(
 		'shoelace-style',
-		get_parent_theme_file_uri('assets/shoelace/shoelace.css'),
+		get_parent_theme_file_uri('assets/shoelace/shoelace.min.css'),
 		array(),
 		wp_get_theme()->get('Version')
 	);

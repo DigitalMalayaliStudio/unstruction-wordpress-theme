@@ -28,7 +28,7 @@ echo sprintf( esc_html__( '%1$sFeel free to reach out to us.%2$s', 'unstruction'
 
 <!-- wp:group {"metadata":{"name":"contact"},"className":"footer","layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group footer"><!-- wp:html -->
-<sl-button-group label=Alignment><sl-button circle href=tel:123456789 size=medium><sl-icon label=Phone name=telephone></sl-icon></sl-button><sl-button circle href=mailto:mail@example.com size=medium><sl-icon label=Mail name=envelope></sl-icon></sl-button><sl-button circle href=https://wa.me/91123456789 size=medium><sl-icon label=WhatsApp name=whatsapp></sl-icon></sl-button><sl-button circle href=https://maps.google.com size=medium target=_blank><sl-icon label=Map name=geo-alt></sl-icon></sl-button></sl-button-group>
+<sl-button-group label=Alignment><sl-button circle href=tel:# size=medium><sl-icon label=Phone name=telephone></sl-icon></sl-button><sl-button circle href=mailto:# size=medium><sl-icon label=Mail name=envelope></sl-icon></sl-button><sl-button circle href=# size=medium><sl-icon label=WhatsApp name=whatsapp></sl-icon></sl-button><sl-button circle href=# size=medium target=_blank><sl-icon label=Map name=geo-alt></sl-icon></sl-button></sl-button-group>
 <!-- /wp:html --></div>
 <!-- /wp:group --></sl-card>
 <!-- /wp:group -->

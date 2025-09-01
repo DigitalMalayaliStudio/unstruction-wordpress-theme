@@ -269,7 +269,7 @@ registerBlockVariation('core/group', {
 				[
 					'core/html',
 					{
-						content: '<sl-button-group label=Alignment><sl-button circle href=tel:123456789 size=medium><sl-icon label=Phone name=telephone></sl-icon></sl-button><sl-button circle href=mailto:mail@example.com size=medium><sl-icon label=Mail name=envelope></sl-icon></sl-button><sl-button circle href=https://wa.me/91123456789 size=medium><sl-icon label=WhatsApp name=whatsapp></sl-icon></sl-button><sl-button circle href=https://maps.google.com size=medium target=_blank><sl-icon label=Map name=geo-alt></sl-icon></sl-button></sl-button-group>'
+						content: '<sl-button-group label=Alignment><sl-button circle href=tel:# size=medium><sl-icon label=Phone name=telephone></sl-icon></sl-button><sl-button circle href=mailto:# size=medium><sl-icon label=Mail name=envelope></sl-icon></sl-button><sl-button circle href=# size=medium><sl-icon label=WhatsApp name=whatsapp></sl-icon></sl-button><sl-button circle href=# size=medium target=_blank><sl-icon label=Map name=geo-alt></sl-icon></sl-button></sl-button-group>'
 					}
 				]
 			],
