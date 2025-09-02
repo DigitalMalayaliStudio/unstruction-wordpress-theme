@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Countdown timer
-const id = setInterval(timer, 1000);
+const unstruction_timerId = setInterval(unstruction_timer, 1000);
 
-function timer() {
+function unstruction_timer() {
     const target = new Date('Jan 1, 3000, 00:00:00').getTime(); // Target date
     const current = new Date().getTime();
     const diff = target - current;
@@ -31,7 +31,7 @@ function timer() {
     document.querySelector('.sec').textContent = sec;
 
     if (diff <= 0) {
-        clearInterval(id);
+        clearInterval(unstruction_timerId);
         document.querySelector('.days').textContent = '0';
         document.querySelector('.hr').textContent = '0';
         document.querySelector('.min').textContent = '0';
@@ -39,4 +39,4 @@ function timer() {
     }
 }
 
-timer();
+unstruction_timer();

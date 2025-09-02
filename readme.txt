@@ -24,6 +24,9 @@ Free block theme for setting up a simple and easy â€œWebsite Under Constructionâ
 * Removed few more example links
 * Updated block variation preview
 
+= 1.3 =
+* Added prefixes in script.js
+
 == FAQ ==
 
 === How to set the date for the countdown timer? ===
