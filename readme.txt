@@ -29,6 +29,7 @@ Free block theme for setting up a simple and easy â€œWebsite Under Constructionâ
 
 = 1.4 =
 * Sanitize URL in footer pattern
+* Theme tested on WordPress 6.4 onwards
 
 == FAQ ==
 
