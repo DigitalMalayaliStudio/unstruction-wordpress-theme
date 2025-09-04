@@ -10,7 +10,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-<p style="margin-top:0;margin-bottom:0"><small>Unstruction <?php echo wp_get_theme()->get( 'Version' ); ?> by <a href="http://studio.digitalmalayali.in/">Digital Malayali Studio</a><br>
+<p style="margin-top:0;margin-bottom:0"><small>Unstruction <?php echo wp_get_theme()->get( 'Version' ); ?> by <a href="<?php echo esc_url('http://studio.digitalmalayali.in/'); ?>">Digital Malayali Studio</a><br>
 &copy; <?php echo date('Y') . ' ' . get_bloginfo('name'); ?></small>
 </p>
 <!-- /wp:paragraph --></div>
